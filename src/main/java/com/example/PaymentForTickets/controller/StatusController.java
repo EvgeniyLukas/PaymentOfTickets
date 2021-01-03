@@ -23,7 +23,7 @@ public class StatusController {
 
     private final ApplicationRepository repository;
 
-    Logger logger = LoggerFactory.getLogger(ApplicationController.class);
+    Logger logger = LoggerFactory.getLogger(StatusController.class);
 
 
     public StatusController(ApplicationRepository repository) {
